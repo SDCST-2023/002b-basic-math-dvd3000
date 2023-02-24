@@ -1,5 +1,6 @@
 #!python3
 
+
 '''
 ##### Task 7
 Read through the file **example1.py** for information on using the math module.
@@ -11,3 +12,9 @@ Read through the file **example1.py** for information on using the math module.
 * You will require the use of the round() function from example1.py
 '''
 
+
+F = 62.5
+convert = (F - 32)*(5/9)
+C = round(convert, 1)
+print(f"{F} Fahrenheit")
+print(f"{C} Celsius")
